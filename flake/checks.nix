@@ -120,7 +120,9 @@
         test -f ${../modules/hardware/graphics.nix}
         test -f ${../modules/hardware/power.nix}
 
-        test -f ${../modules/networking.nix}
+        test -f ${../modules/network/networking.nix}
+	test -f ${../modules/network/dns.nix}
+
         test -f ${../modules/desktop/desktop.nix}
         test -f ${../modules/desktop/ly.nix}
 
