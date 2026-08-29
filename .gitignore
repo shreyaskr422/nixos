@@ -1,0 +1,7 @@
+*.o
+*.orig
+*.rej
+result
+result-*
+dns.nix
+modules/network/dns.nix

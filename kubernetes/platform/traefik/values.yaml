@@ -1,0 +1,22 @@
+deployment:
+  replicas: 1
+
+ports:
+  web:
+    expose:
+      default: true
+  websecure:
+    expose:
+      default: true
+
+providers:
+  kubernetesIngress:
+    enabled: true
+
+ingressClass:
+  enabled: true
+  isDefaultClass: true
+
+service:
+  enabled: true
+  type: LoadBalancer
